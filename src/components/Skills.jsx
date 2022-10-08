@@ -10,6 +10,11 @@ import CPP from '../assets/CPlusPlus.png';
 import CSharp from '../assets/csharp.png';
 import NodeJS from '../assets/node.png';
 import Java from '../assets/java.png';
+import Docker from '../assets/docker.png';
+import Vs2022 from '../assets/vs2022.png';
+import Vscode from '../assets/vscode.png';
+import Net from '../assets/net.png';
+import Azure from '../assets/azure.png';
 
 const Skills = () => {
   return (
@@ -56,11 +61,31 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={NodeJS} alt="HTML icon" />
-                  <p className='my-4'>NodeJS</p>
+                  <p className='my-4'>NODEJS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Java} alt="HTML icon" />
-                  <p className='my-4'>Java</p>
+                  <p className='my-4'>JAVA</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Azure} alt="HTML icon" />
+                  <p className='my-4'>AZURE</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Docker} alt="HTML icon" />
+                  <p className='my-4'>DOCKER</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Net} alt="HTML icon" />
+                  <p className='my-4'>NET</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Vscode} alt="HTML icon" />
+                  <p className='my-4'>VS CODE</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Vs2022} alt="HTML icon" />
+                  <p className='my-4'>VS 2022</p>
               </div>
           </div>
       </div>
