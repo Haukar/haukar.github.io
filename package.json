@@ -2,7 +2,7 @@
   "name": "haukarhussein-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haukarhussein.github.io/",
+  "homepage": "https://haukar.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
