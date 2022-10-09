@@ -36,7 +36,16 @@ const Work = () => {
       </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
-        <a href={item.github} target="_blank">
+        {item.live && <a href={item.live} target="_blank">
+          <button
+            className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg hover:scale-110"
+          >
+            Live
+          </button>
+        </a>
+        }
+        {item.github && <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -44,6 +53,7 @@ const Work = () => {
             Code
           </button>
         </a>
+        }
         {/* eslint-disable-next-line */}
       </div>
     </div>
