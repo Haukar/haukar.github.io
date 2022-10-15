@@ -5,4 +5,9 @@ export const data=[
         github:"https://github.com/Haukar/Haukar.github.io",
         live: "https://haukar.github.io"
     },
+    {
+        id:1,
+        name:"Minitoon Games",
+        live: "https://minitoongames.com"
+    },
 ]
