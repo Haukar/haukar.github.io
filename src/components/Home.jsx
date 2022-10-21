@@ -7,7 +7,7 @@ const Home = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div name='home' className='w-full h-screen bg-[#660066]'>
+    <div name='home' className='pt-96 sm:pt-5 w-full h-screen bg-[#660066]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#ff66ff]'>Hi, my name is</p>
@@ -22,7 +22,7 @@ const Home = () => {
           In June 2022 I graduated as Bachelor of Science in Software Engineering at the Hogeschool: "Windesheim Flevoland" in Almere.
           In the meantime, I have 3 years of experience as a software engineer. I like to work out and cook food.
         </p>
-        <div>
+        <div className='pt-96 sm:pt-52'>
         </div>
       </div>
     </div>
