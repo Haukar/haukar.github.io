@@ -6,7 +6,6 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Python from '../assets/python.png';
 import GitHub from '../assets/github.png';
-import CPP from '../assets/CPlusPlus.png';
 import CSharp from '../assets/csharp.png';
 import NodeJS from '../assets/node.png';
 import Java from '../assets/java.png';
@@ -55,10 +54,6 @@ const Skills = () => {
               <div className='group shadow-md shadow-[#040c16] duration-500'>
                   <img className='group-hover:animate-bounce w-20 mx-auto' src={Python} alt="HTML icon" />
                   <p className='my-4 group-hover:text-bold group-hover:scale-125'>PYTHON</p>
-              </div>
-              <div className='group shadow-md shadow-[#040c16] duration-500'>
-                  <img className='group-hover:animate-bounce w-20 mx-auto' src={CPP} alt="HTML icon" />
-                  <p className='my-4 group-hover:text-bold group-hover:scale-125'>C++</p>
               </div>
               <div className='group shadow-md shadow-[#040c16] duration-500'>
                   <img className='group-hover:animate-bounce w-20 mx-auto' src={CSharp} alt="HTML icon" />
