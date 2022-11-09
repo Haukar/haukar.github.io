@@ -72,7 +72,7 @@ const Skills = () => {
                   <p className='my-4 group-hover:text-bold group-hover:scale-125'>AZURE</p>
               </div>
               <div className='group shadow-md shadow-[#040c16] duration-500'>
-                  <img className='group-hover:animate-bounce w-20 mx-auto' src={Docker} alt="HTML icon" />
+                  <img className='group-hover:animate-bounce w-32 mx-auto' src={Docker} alt="HTML icon" />
                   <p className='my-4 group-hover:text-bold group-hover:scale-125'>DOCKER</p>
               </div>
               <div className='group shadow-md shadow-[#040c16] duration-500'>
@@ -100,6 +100,8 @@ const Skills = () => {
                   <p className='my-4 group-hover:text-bold group-hover:scale-125'>ANGULAR</p>
               </div>
           </div>
+        <div className='pt-96 sm:pt-96'>
+        </div>
       </div>
     </div>
   );

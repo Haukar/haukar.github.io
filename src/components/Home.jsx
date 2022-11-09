@@ -22,8 +22,6 @@ const Home = () => {
           In June 2022 I graduated as Bachelor of Science in Software Engineering at the Hogeschool: "Windesheim Flevoland" in Almere.
           In the meantime, I have 3 years of experience as a software engineer. I like to work out and cook food.
         </p>
-        <div className='pt-96 sm:pt-52'>
-        </div>
       </div>
     </div>
   );
