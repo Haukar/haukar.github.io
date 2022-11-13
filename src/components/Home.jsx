@@ -18,9 +18,9 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          In my spare time I like to work on personal projects, on myself and my daily routines.
-          In June 2022 I graduated as Bachelor of Science in Software Engineering at the Hogeschool: "Windesheim Flevoland" in Almere.
-          In the meantime, I have 3 years of experience as a software engineer. I like to work out and cook food.
+          In my spare time I like to work on personal projects, on myself and my daily routines.<br></br>
+          I have 3 years of experience as a software engineer. I like to work out and cook food.<br></br>
+          I love learning new programming languages and I'm eager to broaden my knowledge.
         </p>
       </div>
     </div>
